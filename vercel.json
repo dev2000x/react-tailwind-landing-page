@@ -1,0 +1,8 @@
+{    
+    "version": 1,
+    "builds": [
+      { "src": "api/**/*.js", "use": "@vercel/node" },
+      { "src": "public/**", "use": "@vercel/static" },
+      { "src": "main.jsx", "use": "@vercel/static-build" }
+    ]
+  }
